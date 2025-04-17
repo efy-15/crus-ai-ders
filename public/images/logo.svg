@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100" height="100" fill="#031835" rx="20" ry="20" />
+  
+  <!-- Knight Helmet Silhouette -->
+  <path d="M30,65 L70,65 L65,30 C65,20 50,15 50,15 C50,15 35,20 35,30 L30,65 Z" 
+        fill="#052553" stroke="#00F5FF" stroke-width="1.5" />
+  
+  <!-- Visor T-Shape -->
+  <path d="M40,40 L60,40 M50,40 L50,55" stroke="#00F5FF" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Neural Circuit Pattern -->
+  <g stroke="#00A0FF" stroke-width="0.8" stroke-opacity="0.6">
+    <path d="M20,30 C35,25 65,25 80,30" />
+    <path d="M20,45 C35,40 65,40 80,45" />
+    <path d="M20,60 C35,55 65,55 80,60" />
+    <path d="M20,75 C35,70 65,70 80,75" />
+  </g>
+  
+  <!-- Circuit Nodes -->
+  <g fill="#00F5FF">
+    <circle cx="30" cy="30" r="1.5" />
+    <circle cx="50" cy="30" r="1.5" />
+    <circle cx="70" cy="30" r="1.5" />
+    <circle cx="30" cy="45" r="1.5" />
+    <circle cx="50" cy="45" r="1.5" />
+    <circle cx="70" cy="45" r="1.5" />
+    <circle cx="30" cy="60" r="1.5" />
+    <circle cx="50" cy="60" r="1.5" />
+    <circle cx="70" cy="60" r="1.5" />
+    <circle cx="30" cy="75" r="1.5" />
+    <circle cx="50" cy="75" r="1.5" />
+    <circle cx="70" cy="75" r="1.5" />
+  </g>
+  
+  <!-- Decorative Elements -->
+  <path d="M50,15 L50,10" stroke="#00F5FF" stroke-width="2" />
+  <path d="M35,30 L30,25" stroke="#00F5FF" stroke-width="1.5" />
+  <path d="M65,30 L70,25" stroke="#00F5FF" stroke-width="1.5" />
+  
+  <!-- Glowing Effect -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#00F5FF" stroke-width="0.5" stroke-opacity="0.5">
+    <animate attributeName="r" from="40" to="42" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="0.5" to="0.2" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Text Label -->
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="8" fill="#00F5FF" text-anchor="middle" font-weight="bold">CRUSAIDERS</text>
+</svg>
