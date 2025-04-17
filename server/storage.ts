@@ -99,7 +99,7 @@ export class MemStorage implements IStorage {
         skills: ["Data Strategy", "AI Enablement", "Insurance Innovation"],
         linkedinUrl: "#",
         githubUrl: "#",
-        imageUrl: "/images/team/researcher.svg",
+        imageUrl: "/images/team/prathap.png",
       },
       {
         name: "Estefany Montoya",
@@ -108,7 +108,7 @@ export class MemStorage implements IStorage {
         skills: ["AI Solutions", "Scalability", "Research"],
         linkedinUrl: "#",
         twitterUrl: "#",
-        imageUrl: "/images/team/ethics.svg",
+        imageUrl: "/images/team/efymax.png", 
       },
       {
         name: "Lisanne Teschner",
@@ -117,7 +117,7 @@ export class MemStorage implements IStorage {
         skills: ["User Advocacy", "AI Adoption", "Operational Insights"],
         linkedinUrl: "#",
         githubUrl: "#",
-        imageUrl: "/images/team/engineer.svg",
+        imageUrl: "/images/team/lisanne.png",
       },
     ];
 
