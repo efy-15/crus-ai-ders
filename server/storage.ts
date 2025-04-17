@@ -93,28 +93,31 @@ export class MemStorage implements IStorage {
     // Add sample team members
     const sampleTeamMembers: InsertTeamMember[] = [
       {
-        name: "Prathap Chandran",
-        role: "EVP of Data",
-        bio: "Shapes Loadsure's data and AI vision-governing data quality, scaling AI initiatives, and enabling every department to build with confidence.",
-        skills: ["Data Strategy", "AI Enablement", "Insurance Innovation"],
+        name: "Alexander Knight",
+        role: "AI Research Lead",
+        bio: "Specializes in neural networks and deep learning architectures with 10+ years of experience in AI research.",
+        skills: ["Neural Networks", "Deep Learning", "Research"],
         linkedinUrl: "#",
         githubUrl: "#",
+        imageUrl: "/images/team/researcher.svg",
       },
       {
-        name: "Estefany Montoya",
-        role: "Machine Learning Engineer",
-        bio: "Builds AI-powered systems that drive automation, accuracy, and agility across Loadsure's core products and processes.",
-        skills: ["AI Solutions", "Scalability", "Research"],
+        name: "Sophia Shield",
+        role: "Ethics & Policy Director",
+        bio: "Focuses on ethical AI implementation and policy development to ensure responsible technology deployment.",
+        skills: ["AI Ethics", "Policy", "Governance"],
         linkedinUrl: "#",
         twitterUrl: "#",
+        imageUrl: "/images/team/ethics.svg",
       },
       {
-        name: "Lisanne Teschner",
-        role: "Customer Experience Rep – Operations",
-        bio: "Acts as the voice of the user, ensuring AI tools and processes are intuitive, accessible, and impactful in day-to-day operations.",
-        skills: ["User Advocacy", "AI Adoption", "Operational Insights"],
+        name: "Marcus Valor",
+        role: "Engineering Lead",
+        bio: "Expert in developing scalable AI systems and leading engineering teams to build production-ready solutions.",
+        skills: ["ML Ops", "Architecture", "Scalability"],
         linkedinUrl: "#",
         githubUrl: "#",
+        imageUrl: "/images/team/engineer.svg",
       },
     ];
     
